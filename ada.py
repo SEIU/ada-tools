@@ -8,7 +8,7 @@ auth_email = os.environ['Ada_email']
 auth_password = os.environ['Ada_password']
 
 # Global script parameters
-base_url = os.environ['Ada_base_url']  # https://ada.seiudsa.com/ in production, can be set with a string here
+base_url = os.environ['Ada_base_url']  # https://ada.seiu.org/ in production, can be set with a string here
 default_template_id = int()  # ID of template for matching, should be configured and retrieved in Ada front end
 default_trigger_action = 'load'  # difference for preview, load to initiate
 auth_cookies = None  # set by authenticate()
